@@ -10,25 +10,25 @@ const Navbar = () => {
             <div className='col-2 '>
                 <center><img style={{height:"50px"}} src={icon} className="rounded-circle" alt="logo" /></center>
             </div>
-            <div className='col-2 order-md-3'>
+            <div className='col-2 order-lg-3'>
                 <center><a  rel="noreferrer" href={resume} target="_blank" className="btn btn-success rounded-pill border border-3 my-4" role="button" >Resume</a></center>
             </div>
-            <div className='container col-md-8 order-md-2 '>
+            <div className='container col-lg-8 order-lg-2 '>
                 <div className='row justify-content-between '>
-                    <div className='col-sm-2'>
+                    <div className='col-md-2'>
                         <center><a href="#home" className="text-decoration-none text-light">About</a></center>
                     </div>
-                    <div className='col-sm-2'>
+                    <div className='col-md-2'>
                         <center><a href="#projects" className="text-decoration-none text-light">Projects</a></center>
                     </div>
-                    <div className='col-sm-2'>
+                    <div className='col-md-2'>
                         <center><a href="#achievements" className="text-decoration-none text-light">Achievements</a></center>
                     </div>
-                    <div className='col-sm-2'>
+                    <div className='col-md-2'>
                         <center><a href="#skills" className="text-decoration-none text-light">Skills</a></center>
                     </div>
-                    <div className='col-sm-2'>
-                        <center><a href="#coding" className="text-decoration-none text-light">Coding Profiles</a></center>
+                    <div className='col-md-2'>
+                        <center><a href="#coding" className="text-decoration-none text-light">Profiles</a></center>
                     </div>
                 </div>
             </div>  
