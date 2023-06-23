@@ -23,8 +23,8 @@ const Projects = () => {
                                 <div class="card-body">
                                     <h5 class="card-title text-light">NewsApp</h5>
                                     <p class="card-text text-light">This is a simple news website that uses newsapi to fetch latest news to user on different category like Health, Entertainment, General, Bussiness, Science, Sports, Technology . With infinite scroll and loading bar it have read more button to read description of news. This is a test project build as part of learning react.</p>
-                                    <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Demo</a>
-                                    <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Code</a>
+                                    {/* <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Demo</a> */}
+                                    <a  rel="noreferrer" href="https://github.com/Princeyadav09/BalliaKhabar" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Code</a>
                                 </div>
                             </div>
                         </div>
@@ -40,8 +40,8 @@ const Projects = () => {
                                 <div class="card-body">
                                     <h5 class="card-title text-light">InoteBook</h5>
                                     <p class="card-text text-light">INotebook is a React Application for managing personal notes on the cloud. it supports login and sighnup for saftey of personal notes. Specific user can only access their own notes, it supports updation and deletion on the note items. Create your account and get started It's totally safe because you must be Logged In for accessing your notes.</p>
-                                    <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Demo</a>
-                                    <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Code</a>
+                                    {/* <a  rel="noreferrer" href="" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Demo</a> */}
+                                    <a  rel="noreferrer" href="https://github.com/Princeyadav09/NoteStorage" target="_blank" className="btn btn-success rounded-pill border border-3 mx-1 px-3" role="button" >Code</a>
                                 </div>
                             </div>
                         </div>
