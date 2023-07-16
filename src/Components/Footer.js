@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='row' >
          <center>  <img src={hr} style={{width:"25%"}}  alt="hr" />  </center> 
        </div>
-       <p className="fs-6 fw-lighter text-light text-center mt-0 mb-0">Copyright © 2023 Damasukma Trihanandi. All Right Reserved</p>
+       <p className="fs-6 fw-lighter text-light text-center mt-0 mb-0">Copyright © 2023  Prince yadav  All Right Reserved</p>
 
     </div>
   )

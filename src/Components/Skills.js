@@ -32,7 +32,7 @@ const Skills = () => {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div> */}
-              <div class="carousel-inner">
+              <div class="carousel-inner ps-5 pe-4">
 
                 <div class="carousel-item active">
                   <div className="row conatiner  ">
