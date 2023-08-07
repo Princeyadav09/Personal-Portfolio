@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='col-2 order-lg-3'>
                 <center><a  rel="noreferrer" href={resume} target="_blank" className="btn btn-success rounded-pill border border-3 my-4" role="button" >Resume</a></center>
             </div>
-            <div className='container col-lg-8 order-lg-2 '>
+            <div className='container col-lg-8 order-lg-2 d-none d-lg-block d-xl-block'>
                 <div className='row justify-content-between '>
                     <div className='col-md-2'>
                         <center><a href="#home" className="text-decoration-none text-light">About</a></center>
