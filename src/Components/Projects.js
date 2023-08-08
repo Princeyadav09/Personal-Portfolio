@@ -18,7 +18,7 @@ const Projects = () => {
                     <div class="card mb-3 bg-dark" >
                         <div class="row g-0">
                             <div class="col-md-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aT-nAU3hick" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <iframe  height="330" className='w-100' src="https://www.youtube.com/embed/aT-nAU3hick" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
