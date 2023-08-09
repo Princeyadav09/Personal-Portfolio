@@ -6,12 +6,12 @@ import hr from '../image/hr.svg';
 
 const Home = () => {
   return (
-    <div id="home" className='row container mt-md-5 ' style={{zIndex:'1',position: 'relative',backgroundColor: '#0f0f0f'}}>
-       <div className='row align-items-center  my-md-5 '>
+    <div id="home" className='row  m-auto' style={{zIndex:'1',position: 'relative',backgroundColor: '#0f0f0f'}}>
+       <div className='row align-items-center  m-auto '>
                 <div className='col-sm-6  my-md-5' >
                        <center><img style={{width:"80%"}} className=''  src={profile} alt="profile"  /></center>
                 </div>
-                <div className='col-sm-6  my-md-5'>
+                <div className='col-sm-6  my-md-5 '>
                     <h1 className="fs-4 text-white-50 mt-md-5">Hi, I'm</h1>
                     <h1 className="fs-3 fw-bold text-white my-0">Prince Kumar Yadav</h1>
                     <p class="fs-4 text-white my-0">Passionate Software Engineer</p>

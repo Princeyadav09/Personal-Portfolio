@@ -2,23 +2,22 @@ import React from 'react'
 import hr from '../image/hr.svg'
 import newsapp from '../image/Projects/Newsapp.png';
 import inotebook from '../image/Projects/inotebook.png';
-import eshop from '../image/Projects/E-shop.png';
 
 const Projects = () => {
     return (
-        <div id="projects" className='row container '>
-            <div className="row">
+        <div id="projects" className='row m-auto '>
+            <div className="row m-auto">
                 <div className="col">
                     <h1 className='fw-bold text-white'>Projects</h1>
                     <h4 className='text-white-50'>Here are some of my Projects</h4>
                 </div>
             </div>
-            <div className="row container ">
-                <div className="row">
-                    <div class="card mb-3 bg-dark" >
-                        <div class="row g-0">
+            <div className="row m-auto">
+                <div className="row m-auto">
+                    <div class="card mb-3 bg-dark " >
+                        <div class="row g-0 m-auto">
                             <div class="col-md-6">
-                                <iframe  height="330" className='w-100' src="https://www.youtube.com/embed/aT-nAU3hick" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <iframe  style={{height:"500px"}} className='w-100' src="https://www.youtube.com/embed/aT-nAU3hick" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
@@ -31,9 +30,9 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row m-auto">
                     <div class="card mb-3 bg-dark" >
-                        <div class="row g-0">
+                        <div class="row g-0 m-auto">
                             <div class="col-md-6">
                                 <img src={inotebook} class="img-fluid my-3" alt="Not Found" />
                             </div>
@@ -48,9 +47,9 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row ">
+                <div className="row m-auto">
                     <div class="card mb-3 bg-dark" >
-                        <div class="row g-0">
+                        <div class="row g-0 m-auto">
                             <div class="col-md-6">
                                 <img src={newsapp} class="img-fluid my-3" alt="Not Found" />
                             </div>

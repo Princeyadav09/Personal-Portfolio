@@ -5,18 +5,18 @@ import hr from '../image/hr.svg'
 
 const Achievements = () => {
   return (
-    <div id="achievements" className='row container '>
-      <div className="row conatiner ">
+    <div id="achievements" className='row m-auto '>
+      <div className="row m-auto ">
           <div className="col ">
             <h1 className='fw-bold text-white'>Achievements</h1>
             <h4 className='text-white-50'>Here are some of my achievements</h4>
           </div>
       </div>
-      <div className="row container ">
+      <div className="row m-auto ">
           <div className="card mb-3 bg-dark " >
             <div className="row g-0 ">
               <div className="col-md-2 ">
-                <img src={icpc} style={{width:"80%",height:"100px"}} className="img-fluid rounded-start" alt="Not Found"/>
+                <img src={icpc} style={{width:"80%",height:"100%"}} className="img-fluid rounded-start" alt="Not Found"/>
               </div>
               <div className="col-md-8 ">
                 <div className="card-body ">
@@ -27,11 +27,11 @@ const Achievements = () => {
             </div>
           </div>
       </div>
-      <div className="row container ">
+      <div className="row m-auto ">
           <div className="card mb-3 bg-dark " >
             <div className="row g-0 ">
-              <div className="col-md-2 ">
-                <img src={gate} style={{width:"80%",height:"100px"}} className="img-fluid rounded-start" alt="Not Found"/>
+              <div className="col-md-2">
+                <img src={gate} style={{width:"80%",height:"150px"}} className="img-fluid rounded-start" alt="Not Found"/>
               </div>
               <div className="col-md-8 ">
                 <div className="card-body ">

@@ -3,7 +3,7 @@ import hr from '../image/hr.svg';
 
 const Footer = () => {
   return (
-    <div className='row container bg-dark rounded-3' >
+    <div className='row m-auto bg-dark rounded-3' >
         <div className="row ">
             <ul className="d-sm-flex  justify-content-center text-center list-unstyled mt-0 mb-0">
                 <li><a href="#home" className="text-decoration-none text-light fw-lighter mx-2">About</a></li>

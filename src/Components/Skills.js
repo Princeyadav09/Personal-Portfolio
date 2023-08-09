@@ -18,14 +18,14 @@ import cpp from '../image/Skills/c++.png'
 
 const Skills = () => {
   return (
-    <div id="skills" className='row container'>
-      <div className="row conatiner ">
+    <div id="skills" className='row m-auto'>
+      <div className="row m-auto">
           <div className="col ">
             <h1 className='fw-bold text-white'>Skills</h1>
             <h4 className='text-white-50'>Here are some of my skills</h4>
           </div>
       </div>
-      <div className="row conatiner  ">
+      <div className="row m-auto">
 
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               {/* <div class="carousel-indicators mt-5">

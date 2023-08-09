@@ -8,16 +8,16 @@ import gfg from '../image/profiles/gfg.svg'
 
 const CodingProfiles = () => {
   return (
-    <div id="coding" className='row container'>
-      <div className="row conatiner ">
+    <div id="coding" className='row m-auto'>
+      <div className="row m-auto ">
           <div className="col ">
             <h1 className='fw-bold text-white'>Coding Profiles</h1>
             <h4 className='text-white-50'>Here are some of my coding profiles</h4>
           </div>
       </div>
-      <div className="row ">
+      <div className="row m-auto">
             <div className="col-md-6 col-lg-3 my-2 my-lg-0">
-                <ProfileCard icon={leetcode} name="leetcode" link="https://leetcode.com/Princeyadav09/" description="With 1713 rating lie in top 11% coders on leetcode"/>
+                <ProfileCard icon={leetcode} name="leetcode" link="https://leetcode.com/Princeyadav09/" description="With 1713 rating top 10% coders on leetcode"/>
             </div>
             <div className="col-md-6 col-lg-3 my-2 my-lg-0">
                 <ProfileCard icon={codeforces} name="Codeforces" link="https://codeforces.com/profile/princeyadav09" description="With 1375 max rating (Pupil) on codeforces"/>
